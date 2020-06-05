@@ -1,0 +1,136 @@
+
+checkout__category
+    category
+        category__category-item
+            category-item
+                category-item__img
+                category-item__description
+                    category-item__heading
+                    category-item__text
+                category-item__info
+                    svg
+                    category-info
+                        category-info__col
+                            category-info__line
+                                category-info__name
+                                category-info__value
+
+
+checkout__car-body
+    car-body
+        car-body__heading
+        car-body__col
+            car-body__variants
+                car-body__variant-card
+                    variant-card
+                        variant-card__img
+                        variant-card__title
+            car-body__collapse
+
+        car-body__col
+            check-block
+                check-block__item
+
+
+checkout__dop
+    dop
+        dop__check-items
+
+
+checkout__route
+    route
+        route__title
+            route__text
+            route__date
+                ...
+            route__calendar
+        route__points
+            route__point
+                route-point
+                    route-point__cross
+                    route-point__header
+                        route-point__name
+                        route-point__value
+                    route-point__address
+                    route-point__contact
+                    route-point__footer
+                        route-point__text
+                        route-point__check-mark
+        route__add-button
+        route__add-form
+            add-form
+                add-form__col add-form__col_first
+                    add-form__heading
+                    add-form__address
+                    add-form__inputs
+                        add-form__input
+                        add-form__input_file
+                add-form__col add-form__col_second
+                    add-form__heading
+                    add-form__time
+                        add-form__time-item
+                    add-form__pause
+                    add-form__collapse
+        route__add-button
+
+checkout__cargo
+    cargo
+        cargo__heading
+        cargo__form
+            cargo__first-col
+                cargo__head-block
+                    cargo__name
+                    cargo__description
+                cargo__charac-heading
+                cargo__characteristic
+                    characteristic
+                        characteristic__tab-links
+                            characteristic__tab-link
+                        characteristic__tab-items
+                            characteristic__tab-item
+                                characteristic__line
+            cargo__second-col
+                cargo__info-block
+                cargo__sizes
+                    cargo__size-block
+                        size-block
+                            size-block__value
+
+
+ checkout__tariff
+    tariff
+        tariff__heading
+        tariff__variants
+            tariff__variant
+                tariff-variant
+                    ...
+        tariff__info
+            tariff__info-heading
+            tariff__info-text
+        tariff__chosen
+            tariff__chosen-info
+                chosen__heading
+                chosen__table
+                    chosen__row
+                        chosen__col
+                            chosen__name
+                            chosen__value
+            tariff__map
+
+
+ checkout__payment
+
+ checkout__social
+    social
+        social__text
+        social__values
+            social__value
+
+
+ checkout__client-form
+    client-form
+        client-form__item
+            client-form__input
+            client-form__button
+
+

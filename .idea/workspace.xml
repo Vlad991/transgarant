@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ba57c4-94b3-4151-b49f-2eb43e28d577" name="Default Changelist" comment="" />
+    <list default="true" id="63ba57c4-94b3-4151-b49f-2eb43e28d577" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/checkout.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_route.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_social.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/checkout-bem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main-page/_main-block.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_elements.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/settings/_font.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/settings/_font.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt/elements-bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/elements-bem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt/main-bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_category.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +36,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1crXXKqgBKJcvSjqHgEgSx5QSfY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sass/checkout-page" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sass/checkout-page" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,11 +74,56 @@
       <option name="presentableId" value="Default" />
       <updated>1591287723850</updated>
       <workItem from="1591287727898" duration="114000" />
-      <workItem from="1591287875744" duration="840000" />
+      <workItem from="1591287875744" duration="6995000" />
+      <workItem from="1591350043851" duration="7783000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1591288742674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591288742674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591288462519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591288462519" />
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1591288742256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591288742256" />
+    <state x="587" y="358" key="Github.ShareDialog" timestamp="1591288609569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="587" y="358" key="Github.ShareDialog/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591288609569" />
+    <state x="466" y="80" key="Github.UntrackedFilesDialog" timestamp="1591288616811">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="466" y="80" key="Github.UntrackedFilesDialog/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591288616811" />
+    <state x="85" y="-1001" width="1280" height="1001" maximized="true" key="dock-window-1" timestamp="1591364295515">
+      <screen x="85" y="-1001" width="1280" height="1001" />
+    </state>
+    <state x="85" y="-1001" width="1280" height="1001" maximized="true" key="dock-window-1/0.0.1440.838/85.-1001.1280.1001@0.0.1440.838" timestamp="1591364295515" />
+    <state x="85" y="-1001" width="1280" height="1001" key="dock-window-1/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591363892348" />
+    <state x="371" y="128" width="697" height="644" key="find.popup" timestamp="1591359543414">
+      <screen x="0" y="0" width="1440" height="838" />
+    </state>
+    <state x="371" y="128" width="697" height="644" key="find.popup/0.0.1440.838/85.-1001.1280.1001@0.0.1440.838" timestamp="1591359543414" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591343622161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591343622161" />
   </component>
 </project>

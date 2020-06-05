@@ -20,44 +20,170 @@
     <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-<h1>Hello World</h1>
+<div class="checkout">
 
-<!-----------Tab Example----------->
-<div class="tab-wrap">
-    <ul class="tab-links">
-        <li data-tab="1">item1</li>
-        <li data-tab="2">item2</li>
-        <li data-tab="3">item3</li>
-    </ul>
-    <div class="tab-items">
-        <div data-tab="1">item1</div>
-        <div data-tab="2">item2</div>
-        <div data-tab="3">item3</div>
-    </div>
+    <h1 class="checkout__heading">Оформление заказа</h1>
+
+    <section class="checkout__category category">
+        <div class="category__category-item category-item">
+            <div class="category-item__img"><img src="" alt="Category"/></div>
+            <div class="category-item__description">
+                <div class="category-item__heading"></div>
+                <div class="category-item__text"></div>
+            </div>
+            <div class="category-item__info">
+                svg
+                <div class="category-info">
+                    <div class="category-info__col">
+                        <div class="category-info__line">
+                            <div class="category-info__name"></div>
+                            <div class="category-info__value"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout__car-body car-body">
+        <div class="car-body__heading"></div>
+        <div class="car-body__col">
+            <div class="car-body__variants">
+                <div class="car-body__variant-card variant-card">
+                    <div class="variant-card__img"></div>
+                    <div class="variant-card__title"></div>
+                </div>
+            </div>
+        </div>
+        <div class="car-body__col">
+            <div class="check-block">
+                <div class="check-block__item"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout__dop dop">
+        <div class="dop__check-items"></div>
+    </section>
+
+    <section class="checkout__route route">
+        <div class="route__title">
+            <div class="route__text"></div>
+            <div class="route__date">
+                ...
+            </div>
+            <div class="route__calendar"></div>
+        </div>
+        <div class="route__points">
+            <div class="route__point route-point">
+                <div class="route-point__cross"></div>
+                <div class="route-point__header">
+                    <div class="route-point__name"></div>
+                    <div class="route-point__value"></div>
+                </div>
+                <div class="route-point__address"></div>
+                <div class="route-point__contact"></div>
+                <div class="route-point__footer">
+                    <div class="route-point__text"></div>
+                    <div class="route-point__check-mark"></div>
+                </div>
+            </div>
+        </div>
+        <div class="route__add-button"></div>
+        <div class="route__add-form add-form">
+            <div class="add-form__col add-form__col_first">
+                <div class="add-form__heading"></div>
+                <div class="add-form__address"></div>
+                <div class="add-form__inputs">
+                    <div class="add-form__input"></div>
+                    <div class="add-form__input add-form__input_file"></div>
+                </div>
+            </div>
+            <div class="add-form__col add-form__col_second">
+                <div class="add-form__heading"></div>
+                <div class="add-form__time">
+                    <div class="add-form__time-item"></div>
+                </div>
+                <div class="add-form__pause"></div>
+                <div class="add-form__collapse"></div>
+            </div>
+        </div>
+        <div class="route__add-button"></div>
+    </section>
+
+    <section class="checkout__cargo cargo">
+        <div class="cargo__heading"></div>
+        <div class="cargo__form">
+            <div class="cargo__first-col">
+                <div class="cargo__head-block">
+                    <div class="cargo__name"></div>
+                    <div class="cargo__description"></div>
+                </div>
+                <div class="cargo__charac-heading"></div>
+                <div class="cargo__characteristic characteristic">
+                    <div class="characteristic__tab-links">
+                        <div class="characteristic__tab-link"></div>
+                    </div>
+                    <div class="characteristic__tab-items">
+                        <div class="characteristic__tab-item"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cargo__second-col">
+                <div class="cargo__info-block"></div>
+                <div class="cargo__sizes">
+                    <div class="cargo__size-block size-block">
+                        <div class="size-block__value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout__tariff tariff">
+        <div class="tariff__heading"></div>
+        <div class="tariff__variants">
+            <div class="tariff__variant tariff-variant">
+                ...
+            </div>
+        </div>
+        <div class="tariff__info">
+            <div class="tariff__info-heading"></div>
+            <div class="tariff__info-text"></div>
+        </div>
+        <div class="tariff__chosen">
+            <div class="tariff__chosen-info">
+                <div class="chosen__heading"></div>
+                <table class="chosen__table">
+                    <tr class="chosen__row">
+                        <td class="chosen__col">
+                            <span class="chosen__name"></span>
+                            <span class="chosen__value"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tariff__map"></div>
+        </div>
+    </section>
+
+    <section class="checkout__payment"></section>
+
+    <section class="checkout__social social">
+        <div class="social__text"></div>
+        <div class="social__values">
+            <div class="social__value"></div>
+        </div>
+    </section>
+
+    <section class="checkout__client-form client-form">
+        <div class="client-form__item">
+            <div class="client-form__input"></div>
+            <div class="client-form__button"></div>
+        </div>
+    </section>
+
 </div>
-
-<!-----------Collapse Example----------->
-<div class="collapse-wrap">
-    <div class="collapse-selected">selected-item</div>
-    <div class="collapse-items">
-        <div>item1</div>
-        <div>item2</div>
-        <div>item3</div>
-    </div>
-</div>
-
-<!-----------Collapse-Select Example----------->
-<div class="collapse-select-wrap">
-    <input type="hidden" value="1">
-    <div class="collapse-selected"><span>select-item</span></div>
-    <div class="collapse-items">
-        <div data-value="1"><span>item1</span></div>
-        <div data-value="2"><span>item2</span></div>
-        <div data-value="3"><span>item3</span></div>
-    </div>
-</div>
-
-<script src="./vendor/flickity/flickity.pkgd.min.js"></script>
 <script type="module" src="./js/index.js"></script>
 </body>
 </html>

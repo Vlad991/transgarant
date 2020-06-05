@@ -1,6 +1,6 @@
 {
   "name": "transgarant",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Checkout project",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vlad991/start_html.git"
+    "url": "git+https://github.com/Vlad991/transgarant.git"
   },
   "author": "Kuzma Vladislav",
   "license": "ISC",

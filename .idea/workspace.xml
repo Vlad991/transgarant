@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ba57c4-94b3-4151-b49f-2eb43e28d577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/checkout.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_route.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_social.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txt/checkout-bem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/checkout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main-page/_main-block.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_elements.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/settings/_font.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/settings/_font.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txt/elements-bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/elements-bem.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txt/main-bem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_category.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_elements.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_elements.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_route.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_route.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_social.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_social.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,9 @@
       <workItem from="1591287727898" duration="114000" />
       <workItem from="1591287875744" duration="6995000" />
       <workItem from="1591350043851" duration="7783000" />
+      <workItem from="1591388886974" duration="2944000" />
+      <workItem from="1591432493233" duration="10302000" />
+      <workItem from="1591464474409" duration="20591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1591288742674</created>
@@ -121,9 +119,9 @@
       <screen x="0" y="0" width="1440" height="838" />
     </state>
     <state x="371" y="128" width="697" height="644" key="find.popup/0.0.1440.838/85.-1001.1280.1001@0.0.1440.838" timestamp="1591359543414" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591343622161">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591439464980">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591343622161" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591439464980" />
   </component>
 </project>

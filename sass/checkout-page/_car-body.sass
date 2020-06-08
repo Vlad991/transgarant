@@ -13,18 +13,31 @@
   margin-top: 30px
   display: flex
   justify-content: space-between
+  align-items: flex-start
+  @include tabletSmall
+    flex-direction: column
 
 .car-body__col
   width: 49%
+  @include tablet
+    width: auto
+
 
 .car-body__variants
   display: flex
   justify-content: space-between
   flex-wrap: wrap
+  @include tabletSmall
+    justify-content: space-evenly
+
+.car-body__variant-card
+  margin-bottom: 28px
+  margin-right: 10px
+  &:last-child
+    margin-bottom: 0
 
 .car-body__variant-card.collapse
   width: 257px
-  margin-top: 28px
 
 .variant-card
   width: 257px
@@ -65,6 +78,9 @@
 .car-body__collapse
 
 .car-body__col
+  @include tabletSmall
+    &:first-child
+      margin-bottom: 30px
 
 .check-block
   padding: 23px 25px
@@ -74,9 +90,15 @@
   display: flex
   flex-wrap: wrap
   align-items: center
+  @include tablet
+    margin-left: 30px
+  @include tabletSmall
+    margin-left: 0
 
 .check-block__item
-  //flex-basis: 231px
-  flex-basis: 247px
+  flex-basis: 47.6%
+  margin-top: 16px
+  @include tablet
+    min-width: 240px
   .collapse
     width: 100%

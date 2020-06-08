@@ -12,9 +12,17 @@
   box-sizing: border-box
   display: flex
   justify-content: space-between
+  @include tabletSmall
+    flex-direction: column
+    padding: 20px
 
 .client-form__input
   flex-basis: 23.3%
+  @include tabletSmall
+    flex-basis: auto
+    margin-bottom: 10px
 
 .client-form__button
   flex-basis: 23.3%
+  @include tabletSmall
+    flex-basis: auto

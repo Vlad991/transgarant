@@ -13,11 +13,15 @@
   margin-top: 30px
   display: flex
   justify-content: space-between
+  flex-wrap: wrap
+  @include desktopSmall
+    justify-content: space-evenly
 
 .tariff__variant
+  margin-bottom: 20px
 
 .tariff-variant
-  display: block
+  display: flex
   width: 360px
   height: 99px
   box-sizing: border-box
@@ -25,11 +29,49 @@
   background-color: #fff
   border-radius: 10px
   padding: 15px 15px 18px 21px
+  @include mobile
+    width: 100%
+  &_active
+    background-color: $yellow
+    .tariff-variant__item
+      &:nth-child(2)
+        border-color: #fff
+    .tariff-variant__heading
+      color: #fff
+      svg path
+        fill: #fff
+    .tariff-variant__text, .tariff-variant__bold
+      color: #fff
 
-//...
+.tariff-variant__item
+  flex-basis: 100%
+  &:nth-child(2)
+    border-left: 1px solid #DDDDDD
+    padding-left: 30px
+    margin-left: 15px
+
+.tariff-variant__heading
+  display: flex
+  justify-content: space-between
+  @include fontSWCL(16px, bold, #4F4F4F, 20px)
+
+.tariff-variant__description
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  margin-top: 10px
+
+.tariff-variant__text
+  @include fontSWCL(13px, normal, #4F4F4F, 18px)
+
+.tariff-variant__bold
+  @include fontSWCL(13px, bold, #4F4F4F, 18px)
+
+.tariff-variant__check
+  padding: 9px
 
 .tariff__info
-  margin-top: 30px
+  margin-top: 10px
 
 .tariff__info-heading
   @include fontSWCL(13px, normal, #000, 18px)
@@ -48,9 +90,13 @@
   margin-top: 38px
   display: flex
   justify-content: space-between
+  @include tablet
+    flex-direction: column
 
 .tariff__chosen-info
   width: 49%
+  @include tablet
+    width: 100%
 
 .chosen__heading
   @include fontSWCL(16px, bold, #000, 20px)
@@ -60,20 +106,34 @@
   margin-top: 18px
   margin-bottom: 35px
   width: 100%
+  @include tablet
+    margin-bottom: 15px
+    margin-top: 15px
 
 .chosen__row
   display: flex
   height: 41px
   padding: 0 15px
   box-sizing: border-box
+  @include mobile
+    //flex-direction: column
+    justify-content: space-between
+    flex-wrap: wrap
+    height: auto
   &:nth-child(2n+1)
     background: #FBFBFB
     border-radius: 10px
     height: 34px
+    @include mobile
+      height: auto
 
 .chosen__col
   display: block
   flex-basis: 100%
+  @include mobile
+    flex-basis: auto
+  &:nth-child(2n)
+    //text-align: right
 
 .chosen__name
   @include fontSWCL(13px, normal, #000, 37px)
@@ -83,3 +143,10 @@
 
 .tariff__map
   width: 47.4%
+  @include tablet
+    width: 100%
+    max-height: 400px
+  *
+    width: 100%
+    @include tablet
+      height: 100%

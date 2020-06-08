@@ -7,6 +7,10 @@
 
 .dop
   justify-content: space-between
+  @include mobile
+    flex-direction: column
+    justify-content: flex-start
+    padding: 15px 10px
 
 .dop__title
   @include fontSWCL(16px, bold, #000, 20px)
@@ -16,6 +20,11 @@
   width: 50%
   padding-top: 15px
   padding-bottom: 15px
+  @include tabletSmall
+    width: 60%
+  @include mobile
+    width: 100%
+    margin-top: 20px
   &::after
     top: 19px
   .collapse__items
@@ -26,6 +35,11 @@
     padding: 23px 23px 0
     border-top: 1px solid $yellow
     border-radius: 10px 0 10px 10px
+    @include tabletSmall
+      width: calc(100% + 2px)
+      border-top: none
+      border-radius: 0 0 10px 10px
+      flex-direction: column
 
 .dop__check-items.collapse_active
   .collapse__items

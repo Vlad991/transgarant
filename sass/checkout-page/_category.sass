@@ -19,6 +19,8 @@
   display: flex
   justify-content: space-between
   flex-wrap: wrap
+  @include tablet
+    justify-content: space-evenly
 
 .category__category-item
   margin-bottom: 20px
@@ -92,6 +94,13 @@
   z-index: 2
   padding: 20px 28px
   box-sizing: border-box
+  @include tabletSmall
+    flex-direction: column
+    width: 300px
+    height: auto
+    padding: 10px 15px
+    top: 75px
+    left: -252px
   &::after
     display: block
     content: ''
@@ -111,8 +120,13 @@
   &:first-child
     border-right: 1px solid #e8e8e8
     padding-right: 39px
+    @include tabletSmall
+      padding: 0
+      border: none
   &:last-child
     padding-left: 39px
+    @include tabletSmall
+      padding: 0
 
 .category-info__line
   display: flex

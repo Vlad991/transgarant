@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63ba57c4-94b3-4151-b49f-2eb43e28d577" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/checkout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/checkout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_elements.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_elements.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_car-body.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_cargo.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_category.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_category.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_client-form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_dop.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_payment.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_route.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_route.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_social.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_social.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout-page/_tariff.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/checkout.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/checkout.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +44,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sass/checkout-page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,6 +76,10 @@
       <workItem from="1591432493233" duration="10302000" />
       <workItem from="1591464474409" duration="20718000" />
       <workItem from="1591553447447" duration="15468000" />
+      <workItem from="1591683003782" duration="67000" />
+      <workItem from="1591683965844" duration="1819000" />
+      <workItem from="1591741752291" duration="90000" />
+      <workItem from="1598293934701" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1591288742674</created>
@@ -117,10 +108,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add desktop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Deployment" timestamp="1591610513739">
+    <state x="320" y="115" key="#Deployment" timestamp="1591741784218">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Deployment/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591610513739" />
+    <state x="320" y="115" key="#Deployment/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591741784218" />
     <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591288462519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -137,6 +128,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="80" key="Github.UntrackedFilesDialog/0.0.1440.900/85.-1024.1280.1024@0.0.1440.900" timestamp="1591288616811" />
+    <state width="1396" height="195" key="GridCell.Tab.0.bottom" timestamp="1591683069900">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1396" height="195" key="GridCell.Tab.0.bottom/0.23.1440.812/85.-1001.1280.1001@0.23.1440.812" timestamp="1591683069900" />
+    <state width="1396" height="195" key="GridCell.Tab.0.center" timestamp="1591683069898">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1396" height="195" key="GridCell.Tab.0.center/0.23.1440.812/85.-1001.1280.1001@0.23.1440.812" timestamp="1591683069898" />
+    <state width="1396" height="195" key="GridCell.Tab.0.left" timestamp="1591683069897">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1396" height="195" key="GridCell.Tab.0.left/0.23.1440.812/85.-1001.1280.1001@0.23.1440.812" timestamp="1591683069897" />
+    <state width="1396" height="195" key="GridCell.Tab.0.right" timestamp="1591683069899">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1396" height="195" key="GridCell.Tab.0.right/0.23.1440.812/85.-1001.1280.1001@0.23.1440.812" timestamp="1591683069899" />
     <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1591551216274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
